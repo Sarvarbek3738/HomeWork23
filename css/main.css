@@ -1,0 +1,645 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(../imgs/header1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+header nav .nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0px;
+}
+header nav .nav .menu {
+  display: none;
+}
+header nav .nav button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+}
+header nav .nav .nav2 {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+}
+header nav .nav .nav2 ul {
+  list-style: none;
+}
+header nav .nav .nav2 .links {
+  display: flex;
+  gap: 40px;
+}
+header nav .nav .nav2 .links a {
+  color: white;
+  text-decoration: none;
+}
+header .hero .hero1 {
+  width: 570px;
+  padding-top: 150px;
+  padding-bottom: 250px;
+}
+header .hero .hero1 h1 {
+  color: white;
+  font-size: 5px;
+}
+header .hero .hero1 p {
+  color: white;
+  line-height: 25px;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+header .hero .hero1 button {
+  padding: 16px 28px;
+  font-size: 20px;
+  background-color: inherit;
+  border: 1px solid white;
+  color: white;
+  border-radius: 50px;
+}
+
+.section1 .sar {
+  padding: 30px 0px;
+  border-bottom: 1px solid gray;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.section1 .sar h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.section1 .box1 {
+  border: 1px solid gray;
+  padding: 20px;
+}
+.section1 .box1 .box1-5 {
+  padding-top: 20px;
+  text-align: right;
+}
+.section1 .box1 .box1-1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+.section1 .box1 .box1-1 h1 {
+  font-size: 35px;
+}
+.section1 .box1 .box1-1 .box1-4 {
+  background-color: #F4F4F4;
+  padding: 10px;
+  border-radius: 50px;
+}
+.section1 .box1 .box1-1 .box1-4 i {
+  color: gray;
+}
+.section1 .box1 .box1-1 .box1-4 input {
+  background-color: #F4F4F4;
+  border: none;
+}
+.section1 .box1 .box1-2 {
+  text-align: center;
+  padding: 50px 0px;
+}
+.section1 .box1 .box1-2 button {
+  padding: 10px 25px;
+  margin: 15px;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+}
+.section1 .box1 .box1-2 button:hover {
+  background: linear-gradient(86.93deg, #101828 0.18%, #233250 99.39%);
+  color: white;
+  border-radius: 8px;
+}
+.section1 .box1 .box1-3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section1 .box1 .box1-3 div {
+  width: 380px;
+}
+.section1 .box1 .box1-3 div img {
+  width: 100%;
+}
+
+.section2 {
+  padding-top: 50px;
+}
+.section2 .sar2 {
+  padding: 30px 0px;
+  border-bottom: 1px solid gray;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.section2 .sar2 h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.section2 .box2 {
+  border: 1px solid gray;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section2 .box2 .box2-1:nth-child(1) img, .section2 .box2 .box2-1:nth-child(2) img {
+  height: 350px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.section2 .box2 .box2-1:nth-child(3) img {
+  height: 710px;
+  border-radius: 20px;
+}
+.section2 .box2 .box2-1 {
+  transition: all 10s ease;
+  position: relative;
+  width: 380px;
+}
+.section2 .box2 .box2-1 h1 {
+  position: absolute;
+  color: white;
+  top: 150px;
+  left: 70px;
+  font-size: 0px;
+  opacity: 0;
+}
+.section2 .box2 .box2-1 h2 {
+  position: absolute;
+  color: white;
+  top: 530px;
+  font-size: 0px;
+  left: 70px;
+  text-align: center;
+  opacity: 0;
+}
+.section2 .box2 .box2-1 h3 {
+  position: absolute;
+  color: white;
+  top: 330px;
+  font-size: 0px;
+  left: 100px;
+  text-align: center;
+  opacity: 0.2;
+}
+.section2 .box2 .box2-1 img {
+  width: 100%;
+}
+.section2 .box2-1 :hover h2 {
+  font-size: 50px;
+  opacity: 1;
+}
+.section2 .box2-1 :hover h1 {
+  font-size: 50px;
+  opacity: 1;
+}
+.section2 .box2-1 :hover h3 {
+  font-size: 50px;
+  opacity: 1;
+}
+
+.section3 {
+  padding-top: 50px;
+}
+.section3 .sar3 {
+  padding: 20px 0px;
+  border-bottom: 1px solid gray;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.section3 .sar3 h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.section3 .box3 {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  padding: 20px;
+}
+.section3 .box3 .box3-1 p {
+  font-size: 18px;
+  padding-bottom: 20px;
+  line-height: 30px;
+}
+
+.section4 {
+  padding-top: 50px;
+}
+.section4 .sar4 {
+  padding: 30px 0px;
+  border-bottom: 1px solid gray;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.section4 .sar4 h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.section4 .box4 {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section4 .box4 .box4-1 {
+  width: 280px;
+}
+.section4 .box4 .box4-1 img {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.section4 .box4 .box4-1 h3 {
+  font-size: 20px;
+}
+.section4 .box4 .box4-1 p {
+  color: gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.section4 .box4 .box4-1 .box4-2 {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  color: gray;
+}
+
+.section5 {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.section5 .sar5 {
+  padding: 30px 0px;
+  border-bottom: 1px solid gray;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.section5 .sar5 h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.section5 .box5 {
+  display: flex;
+  justify-content: space-between;
+}
+.section5 .box5 .box5-1 {
+  width: 570px;
+  padding: 20px;
+}
+.section5 .box5 .box5-1 h2 {
+  font-size: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section5 .box5 .box5-1 p {
+  font-size: 18px;
+  color: gray;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+.section5 .box5 .box5-1 button {
+  padding: 15px 40px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  background: linear-gradient(86.93deg, #101828 0.18%, #233250 99.39%);
+}
+
+.section6 {
+  background-color: #101828;
+  background-size: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.section6 .sar6 {
+  padding: 30px 0px;
+  border-bottom: 1px solid gray;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.section6 .sar6 h2 {
+  font-size: 37px;
+  font-weight: 400;
+  color: white;
+}
+.section6 .box6 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.section6 .box6 .box6-1 {
+  width: 550px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px 66px;
+}
+.section6 .box6 .box6-1 p {
+  color: #344054;
+  padding-left: 2px;
+  padding-bottom: 3px;
+}
+.section6 .box6 .box6-1 input {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+.section6 .box6 .box6-1 .box6-5 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+.section6 .box6 .box6-1 .box6-6 {
+  padding-bottom: 30px;
+}
+.section6 .box6 .box6-1 .box6-6 input {
+  padding-right: 233px;
+}
+.section6 .box6 .box6-1 .box6-7 {
+  padding-bottom: 30px;
+}
+.section6 .box6 .box6-1 .box6-7 input {
+  padding-right: 233px;
+  padding-bottom: 100px;
+}
+.section6 .box6 .box6-1 .box6-8 {
+  padding-bottom: 30px;
+}
+.section6 .box6 .box6-1 .box6-9 button {
+  padding: 15px 162px;
+  background: linear-gradient(86.93deg, #101828 0.18%, #233250 99.39%);
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+.section6 .box6 .box6-2 {
+  padding-top: 100px;
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section6 .box6 .box6-2 .box6-10 i {
+  color: white;
+  padding-bottom: 15px;
+}
+.section6 .box6 .box6-2 .box6-10 h4 {
+  color: white;
+  padding-bottom: 15px;
+}
+.section6 .box6 .box6-2 .box6-10 p {
+  color: gray;
+  padding-bottom: 15px;
+}
+
+footer {
+  background-color: #101828;
+  border-top: 1px solid gray;
+}
+footer .sar7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+}
+footer .sar7 h2 {
+  color: wheat;
+  padding-bottom: 10px;
+}
+footer .sar7 h4 {
+  color: gray;
+}
+footer .sar7 input {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: #DEDEDE;
+}
+footer .sar7 button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  color: #344054;
+}
+footer .box7 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+footer .box7 .sar8 h2 {
+  font-size: 30px;
+  color: white;
+}
+footer .box7 .sar8 p {
+  color: #DEDEDE;
+  padding-top: 20px;
+}
+footer .box7 ul {
+  list-style: none;
+}
+footer .box7 h3 {
+  color: white;
+  padding-bottom: 10px;
+}
+footer .box7 .links a {
+  color: #CECECE;
+  text-decoration: none;
+  line-height: 30px;
+}
+footer .oxiri {
+  display: flex;
+  justify-content: space-between;
+  color: #CECECE;
+  padding: 20px;
+}
+footer .oxiri i {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+@media (max-width: 480px) {
+  header {
+    background-image: url(../imgs/Hero\ Section.png);
+    background-size: 100%;
+  }
+  header .nav2 .link1 {
+    display: none;
+  }
+  header .but1 {
+    display: none;
+  }
+  header .hero {
+    padding-left: 20px !important;
+  }
+  header .hero .hero1 {
+    width: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  header .hero .hero1 h1 {
+    color: white;
+    font-size: 35px;
+  }
+  header .hero .hero1 p {
+    color: white;
+    line-height: 25px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    font-size: 16px;
+  }
+  header .hero .hero1 button {
+    padding: 16px 28px;
+    font-size: 20px;
+    background-color: inherit;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+  }
+  .section1 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .section1 .sar {
+    font-size: 30px;
+  }
+  .section1 .box1 {
+    border: none;
+  }
+  .section1 .box1 input {
+    display: none;
+  }
+  .section1 .box1 .box1-2 button {
+    margin: 0px;
+    padding: 8px 19px;
+  }
+  .section1 .box1 .box1-5 {
+    display: none;
+  }
+  .section1 .box1 .box1-3 img {
+    margin-bottom: 20px;
+  }
+  .section2 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 0px;
+  }
+  .section2 .box2 {
+    border: none;
+  }
+  .section2 .box2 .box2-1 {
+    width: 100%;
+    height: 100%;
+  }
+  .section2 .box2 .box2-1 h1 {
+    display: none;
+  }
+  .section2 .box2 .box2-1 h2 {
+    display: none;
+  }
+  .section2 .box2 .box2-1 h3 {
+    display: none;
+  }
+  .section3 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .section3 .box3 {
+    border: none;
+  }
+  .section3 .box3 .box3-1 {
+    color: #667085;
+  }
+  .section3 .box3 .box3-2 {
+    display: none;
+  }
+  .section4 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .section4 .box4 .box4-1 {
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .section4 .box4 .box4-1 .box4-2 {
+    display: flex;
+    justify-content: center;
+  }
+  .section5 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 0px;
+  }
+  .section5 .box5 .box5-1 h2 {
+    font-size: 22px;
+  }
+  .section5 .box5 .box5-2 {
+    display: none;
+  }
+  .section6 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .section6 .box6 .box6-1 {
+    width: 100%;
+  }
+  .section6 .box6 .box6-1 .box6-5 {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-bottom: 30px;
+  }
+  .section6 .box6 .box6-1 .box6-5 input {
+    padding: 5px 7px;
+  }
+  .section6 .box6 .box6-1 .box6-6 {
+    padding-bottom: 30px;
+  }
+  .section6 .box6 .box6-1 .box6-6 input {
+    padding-right: 100px;
+  }
+  .section6 .box6 .box6-1 .box6-7 {
+    justify-content: center;
+    gap: 5px;
+    padding-bottom: 30px;
+  }
+  .section6 .box6 .box6-1 .box6-7 input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .section6 .box6 .box6-1 .box6-9 button {
+    padding: 15px 100px;
+    background: linear-gradient(86.93deg, #101828 0.18%, #233250 99.39%);
+    color: white;
+    border-radius: 8px;
+    border: none;
+  }
+}/*# sourceMappingURL=main.css.map */
